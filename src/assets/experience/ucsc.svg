@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Home</title>
+    <defs>
+        <circle id="path-1" cx="250" cy="250" r="250"></circle>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-556.000000, -535.000000)">
+            <g id="Timeline" transform="translate(187.000000, 150.000000)">
+                <g id="Home" transform="translate(369.000000, 385.000000)">
+                    <g id="Oval">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#F8E16C" xlink:href="#path-1"></use>
+                        <ellipse fill="#8FCB9B" mask="url(#mask-2)" cx="250" cy="394.318182" rx="250" ry="107.954545"></ellipse>
+                    </g>
+                    <g id="House" transform="translate(131.818182, 120.454545)">
+                        <ellipse id="Oval" fill-opacity="0.4" fill="#2A7F62" cx="117.045455" cy="232.954545" rx="107.954545" ry="28.4090909"></ellipse>
+                        <polygon id="Triangle" fill="#83482F" points="115.909091 0 231.818182 72.7272727 0 72.7272727"></polygon>
+                        <rect id="Rectangle" fill="#D8A47F" x="36.3636364" y="72.7272727" width="159.090909" height="159.090909"></rect>
+                        <rect id="Rectangle" fill="#F6FCFF" x="65.9090909" y="97.7272727" width="40.9090909" height="40.9090909"></rect>
+                        <rect id="Rectangle-Copy" fill="#F6FCFF" x="129.545455" y="97.7272727" width="40.9090909" height="40.9090909"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#F6FCFF" x="65.9090909" y="161.363636" width="40.9090909" height="40.9090909"></rect>
+                        <rect id="Rectangle" fill="#83482F" x="127.272727" y="161.363636" width="45.4545455" height="70.4545455"></rect>
+                        <rect id="Rectangle" fill="#83482F" x="156.818182" y="0" width="36.3636364" height="54.5454545"></rect>
+                    </g>
+                    <path d="M81.8181818,381.818182 C62.9902926,381.818182 47.7272727,366.555162 47.7272727,347.727273 C47.7272727,328.899384 62.9902926,313.636364 81.8181818,313.636364 L81.8181818,313.636364 L81.822749,313.072608 C82.1237987,294.50474 97.2694806,279.545455 115.909091,279.545455 C134.73698,279.545455 150,294.808474 150,313.636364 C168.827889,313.636364 184.090909,328.899384 184.090909,347.727273 C184.090909,366.555162 168.827889,381.818182 150,381.818182 L150,381.818182 Z M115.909091,347.727273 L115.904524,348.291028 C115.895231,348.864186 115.871793,349.433905 115.834545,349.999852 L115.983637,349.999852 C115.9342,349.24871 115.909091,348.490924 115.909091,347.727273 L115.909091,347.727273 Z" id="Bush" fill="#2A7F62"></path>
+                    <g id="Tree" transform="translate(363.636364, 188.636364)">
+                        <ellipse id="Oval" fill-opacity="0.4" fill="#2A7F62" cx="45.4545455" cy="176.136364" rx="34.0909091" ry="17.0454545"></ellipse>
+                        <polygon id="Triangle" fill="#EF8354" points="45.4545455 0 90.9090909 136.363636 0 136.363636"></polygon>
+                        <rect id="Rectangle" fill="#BA5A31" x="34.0909091" y="136.363636" width="22.7272727" height="38.6363636"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
