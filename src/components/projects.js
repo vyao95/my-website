@@ -22,7 +22,7 @@ function Projects() {
                                     <div className="project">
                                         <div className="project-img-wrapper">
                                             <a href="http://lofiai.herokuapp.com/">
-                                                <img src={lofi} />
+                                                <img src={lofi} alt="lofi" />
                                             </a>
                                         </div>
                                         <div className="project-title">
@@ -38,7 +38,7 @@ function Projects() {
                                     <div className="project">
                                         <div className="project-img-wrapper">
                                             <a href="https://github.com/vyao95/E4-4U">
-                                                <img src={c4} />
+                                                <img src={c4} alt="c4"/>
                                             </a>
                                         </div>
                                         <div className="project-title">

@@ -114,6 +114,7 @@ img {
 section {
   position: relative;
   background-color: #011638;
+  margin-bottom: -2px;
 }
 #landing {
   background-color: #233D4D;

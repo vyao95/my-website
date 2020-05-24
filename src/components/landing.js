@@ -14,11 +14,11 @@ function Landing() {
                     <div className="inner">
                         <Row>
                             <Col xs={3} md={4}>
-                                <img id="left-sky" src={leftSky} />
+                                <img id="left-sky" alt="leftSky" src={leftSky} />
                             </Col>
                             <Col xs={6} md={4} className="center-align">
                                 <Row>
-                                    <img id="star-intro" src={starIntro} />
+                                    <img id="star-intro" alt="I'm Vince" src={starIntro} />
                                 </Row>
                                 <Row className="justify-content-end">
                                     <div id="intro-text">
@@ -28,7 +28,7 @@ function Landing() {
                                 </Row>
                             </Col>
                             <Col xs={3} md={4}>
-                                <img id="right-sky" src={rightSky} />
+                                <img id="right-sky" alt="rightSky" src={rightSky} />
                             </Col>
                         </Row>
                     </div>
@@ -39,7 +39,7 @@ function Landing() {
                     <div className="inner">
                         <Row>
                             <Col>
-                                <img id="landscape" src={landscape} />
+                                <img id="landscape" alt="landscape" src={landscape} />
                             </Col>
                         </Row>
                     </div>

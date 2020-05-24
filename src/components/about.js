@@ -43,15 +43,15 @@ class About extends React.Component {
                         <div class="inner">
                             <Row>
                                 <Col xs={4} md={3}>
-                                    <img id="left-stars" src={leftStars} />
+                                    <img id="left-stars" src={leftStars} alt="leftStars" />
                                 </Col>
                                 <Col xs={4} md={6} className="center-align">
                                     <div className="icon-container center-align">
-                                        <img className="icon" src={icon} />
+                                        <img className="icon" src={icon} alt="icon"/>
                                     </div>
                                 </Col>
                                 <Col xs={4} md={3}>
-                                    <img id="right-stars" src={leftStars} />
+                                    <img id="right-stars" src={leftStars} alt="rightStars"/>
                                 </Col>
                             </Row>
                             <Row>

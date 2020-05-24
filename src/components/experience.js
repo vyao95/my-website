@@ -56,7 +56,7 @@ class Experience extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="event">
-                                                <img className="img-circle" src={grouponMerchant}></img>
+                                                <img className="img-circle" src={grouponMerchant} alt="grouponMerchant"></img>
                                             </div>
                                         </Row>
                                     </div>
@@ -75,7 +75,7 @@ class Experience extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="event">
-                                                <img className="img-circle" src={groupon}></img>
+                                                <img className="img-circle" src={groupon} alt="groupon"></img>
                                             </div>
                                         </Row>
                                     </div>
@@ -91,7 +91,7 @@ class Experience extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="event">
-                                                <img className="img-circle" src={ucsc}></img>
+                                                <img className="img-circle" src={ucsc} alt="ucsc"></img>
                                             </div>
                                         </Row>
                                     </div>
