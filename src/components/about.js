@@ -40,7 +40,7 @@ class About extends React.Component {
             <section id="about">
                 <div className="bio">
                     <Container>
-                        <div class="inner">
+                        <div className="inner">
                             <Row>
                                 <Col xs={4} md={3}>
                                     <img id="left-stars" src={leftStars} alt="leftStars" />
@@ -56,7 +56,7 @@ class About extends React.Component {
                             </Row>
                             <Row>
                                 <Col>
-                                    <div class="typed-container center-align">
+                                    <div className="typed-container center-align">
                                         <span className="typed" ref={(el) => {this.el = el;}}></span>
                                     </div>
                                 </Col>
@@ -72,7 +72,7 @@ class About extends React.Component {
                                     </p>
                                 </Col>
                             </Row>
-                            <div class="separator"></div>           
+                            <div className="separator"></div>           
                         </div>
                     </Container>
                 </div>

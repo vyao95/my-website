@@ -15,7 +15,6 @@ class Experience extends React.Component {
         window.addEventListener('scroll', this.handleScroll);
     }
     handleScroll = e => {
-        console.log("HEY");
         if(!this.exp || this.exp.length === 0) return;
         this.exp.forEach((ele, index, arr) => {
             if(this.isExperienceInView(ele)) {
@@ -96,7 +95,7 @@ class Experience extends React.Component {
                                         </Row>
                                     </div>
                                 </div>
-                                <div class="separator"></div>
+                                <div className="separator"></div>
                             </Col>
                         </Row>
                     </div>
