@@ -1,10 +1,7 @@
 import React from 'react';
 
 import { Row, Container } from 'react-bootstrap';
-import linkedIn from '../assets/contact/linked-in.svg';
-import pdf from '../assets/contact/pdf.svg';
 import Resume from '../assets/Vincent-Yao.pdf';
-import github from '../assets/contact/github.svg';
 
 class Contact extends React.Component {
     render() {

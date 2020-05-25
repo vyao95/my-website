@@ -17,9 +17,7 @@ ion-icon {
   color: white;
   margin-top: 10px;
 }
-polyline {
-  stroke: white;
-}
+
 a:hover {
   text-decoration: none;
 }
@@ -301,6 +299,7 @@ section .wave.wave4 {
   }
   #intro-text {
     font-size: 1rem;
+    margin-top: 10px;
   }
   .timeline {
     position: relative;
