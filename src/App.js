@@ -15,7 +15,6 @@ class App extends React.Component {
     this.handleScroll = this.handleScroll.bind(this);
   }
   handleScroll = e => {
-    // Checks if typed element is in view
     if(!this.scrollUpBtn) return;
     const bottom = ReactDOM.findDOMNode(this.refs['landing']).getBoundingClientRect().bottom;
     if(bottom <= window.innerHeight/2) {
