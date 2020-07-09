@@ -10,6 +10,27 @@ class Experience extends React.Component {
         this.exp = [];
         this.handleScroll = this.handleScroll.bind(this);
         this.isExperienceInView = this.isExperienceInView.bind(this);
+
+        this.stories = [
+            {
+                title: "Groupon Merchant",
+                description: "Software Development Engineer I",
+                time: "2019-2020",
+                image: grouponMerchant
+            },
+            {
+                title: "Groupon",
+                description: "Software Engineering Intern",
+                time: "Summer 2018",
+                image: groupon
+            },
+            {
+                title: "University of California, Santa Cruz",
+                description: "B.S. in Computer Science<",
+                time: "2017-2018",
+                image: ucsc
+            }
+        ];
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
@@ -45,55 +66,29 @@ class Experience extends React.Component {
                         <Row>
                             <Col>
                                 <div className="timeline">
-                                    <div ref={(el) => this.exp.push(el)} className="experience-1 animated">
-                                        <Row>
-                                            <div className="story left">
-                                                <div className="job">
-                                                    <h4>Groupon Merchant</h4>
-                                                    <h5>Software Development Engineer I</h5>
-                                                    <h6>2019-2020</h6>
+                                    {
+                                        this.stories.map((story, i) => {
+                                            const { title, description, time, image } = story;
+                                            const dir = (i % 2 === 0) ? "left" : "right";
+
+                                            return (
+                                                <div ref={(el) => this.exp.push(el)} className={`experience-${i} animated`}>
+                                                    <Row>
+                                                        <div className={`story ${dir}`}>
+                                                            <div className="job">
+                                                                <h4>{title}</h4>
+                                                                <h5>{description}</h5>
+                                                                <h6>{time}</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div className="event">
+                                                            <img className="img-circle" src={image} alt="grouponMerchant"></img>
+                                                        </div>
+                                                    </Row>
                                                 </div>
-                                            </div>
-                                            <div className="event">
-                                                <img className="img-circle" src={grouponMerchant} alt="grouponMerchant"></img>
-                                            </div>
-                                        </Row>
-                                    </div>
-                                    <div ref={(el) => this.exp.push(el)} className="experience-2 animated">
-                                        <Row>
-                                            <div className="story right">
-                                                <div className="job">
-                                                    <h4>Groupon</h4>
-                                                    <h5>Software Engineering Intern</h5>
-                                                    <h6>Summer 2018</h6>
-                                                </div>
-                                                <div className="job-description">
-                                                    <p>
-                                                        
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="event">
-                                                <img className="img-circle" src={groupon} alt="groupon"></img>
-                                            </div>
-                                        </Row>
-                                    </div>
-                                    <div ref={(el) => this.exp.push(el)} className="experience-3 animated">
-                                        <Row>
-                                            <div className="story left">
-                                                <div className="job">
-                                                    <h4>University of California, Santa Cruz</h4>
-                                                    <h5>B.S. in Computer Science</h5>
-                                                    <h6>2017-2018</h6>
-                                                </div>
-                                                <div className="job-description">
-                                                </div>
-                                            </div>
-                                            <div className="event">
-                                                <img className="img-circle" src={ucsc} alt="ucsc"></img>
-                                            </div>
-                                        </Row>
-                                    </div>
+                                            );
+                                        })
+                                    }
                                 </div>
                                 <div className="separator"></div>
                             </Col>
